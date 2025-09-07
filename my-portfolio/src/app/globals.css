@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --animate-linear-bounce: linear-bounce 50s ease 0s 1 normal forwards;
+  --animate-linear-bounce: linear-bounce 20s ease-in-out 0s infinite normal
+    forwards;
 
   @keyframes linear-bounce {
     0%,

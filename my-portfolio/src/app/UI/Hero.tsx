@@ -28,17 +28,42 @@ export default function Hero() {
           performant web applications and creating seamless user experiences.
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-6 mb-10">
-          <button className="bg-white text-indigo-900 font-medium px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition ease-in-out duration-300 hover:scale-105">
+          <a
+            href="https://github.com/ccannon062"
+            target="_blank"
+            className="bg-white text-indigo-900 font-medium px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition ease-in-out duration-300 hover:scale-105 cursor-pointer"
+          >
             View My Work
-          </button>
-          <button className="bg-indigo-900 text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition ease-in-out duration-300 hover:scale-105">
+          </a>
+          <a
+            href="/CalebCResume.pdf"
+            download="CalebCResume.pdf"
+            className="bg-indigo-900 text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition ease-in-out duration-300 hover:scale-105"
+          >
             Download CV
-          </button>
+          </a>
         </div>
         <div className="flex justify-center gap-6">
-          <FiGithub className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
-          <FiLinkedin className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
-          <MdOutlineEmail className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
+          <a
+            href="https://github.com/ccannon062"
+            target="_blank"
+            className="cursor-pointer"
+          >
+            <FiGithub className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/cannoncc/"
+            target="_blank"
+            className="cursor-pointer"
+          >
+            <FiLinkedin className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
+          </a>
+          <a
+            href="mailto:caleb.cristoph.cannon@gmail.com"
+            className="cursor-pointer"
+          >
+            <MdOutlineEmail className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
+          </a>
         </div>
       </div>
     </div>

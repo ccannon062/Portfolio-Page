@@ -5,13 +5,13 @@ import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 export default function SubmitForms() {
   return (
     <>
-      <div className="w-full py-16 bg-gradient-to-r from-[#9ca3f0] via-[#6b93f7] to-[#6366f1]">
+      <div className="w-full py-16 bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5]">
         <div className="max-w-2xl mx-auto px-4">
-          <h1 className="text-4xl font-bold text-white tracking-tight py-6 text-center">
+          <h1 className="text-5xl font-bold text-white tracking-tight py-6 text-center">
             Let's Work Together
           </h1>
           <div className="w-32 h-1 mx-auto rounded bg-indigo-900 mb-6"></div>
-          <p className="text-white/90 text-lg leading-relaxed text-center">
+          <p className="text-gray-100/90 text-lg leading-relaxed text-center">
             Have a project in mind? I'd love to hear about it and discuss how we
             can bring your ideas to life.
           </p>
@@ -20,7 +20,7 @@ export default function SubmitForms() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="text-white">
               <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
-              <p className="text-white/90 text-lg leading-relaxed mb-8">
+              <p className="text-gray-100/90 text-lg leading-relaxed mb-8">
                 I'm always open to discussing new opportunities, creative
                 projects, or just having a chat about technology and design.
                 Feel free to reach out!
@@ -31,36 +31,23 @@ export default function SubmitForms() {
                     <FiMail className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">Email</h4>
-                    <p className="text-white/80">
+                    <h4 className="font-medium text-lg">Email</h4>
+                    <p className="text-gray-100/90">
                       caleb.cristoph.cannon@gmail.com
                     </p>
                   </div>
                 </div>
-
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center">
-                    <FiPhone className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg">Phone</h4>
-                    <p className="text-white/80">+1 (402) 637-8046</p>
-                  </div>
-                </div>
-
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center">
                     <FiMapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">Location</h4>
-                    <p className="text-white/80">Omaha, NE</p>
+                    <h4 className="font-medium text-lg">Location</h4>
+                    <p className="text-gray-100/90">Omaha, NE</p>
                   </div>
                 </div>
               </div>
             </div>
-
-            {/* Right Column - Contact Form */}
             <div className="bg-indigo-900/30 backdrop-blur-sm rounded-xl p-8 border border-indigo-700/50">
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -75,7 +62,7 @@ export default function SubmitForms() {
                       type="text"
                       id="name"
                       placeholder="Your name"
-                      className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
+                      className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
                     />
                   </div>
 
@@ -90,7 +77,7 @@ export default function SubmitForms() {
                       type="email"
                       id="email"
                       placeholder="your@email.com"
-                      className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
+                      className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
                     />
                   </div>
                 </div>
@@ -106,7 +93,7 @@ export default function SubmitForms() {
                     type="text"
                     id="subject"
                     placeholder="Project inquiry"
-                    className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
+                    className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
                   />
                 </div>
 
@@ -119,15 +106,15 @@ export default function SubmitForms() {
                   </label>
                   <textarea
                     id="message"
-                    rows="5"
+                    rows={5}
                     placeholder="Tell me about your project..."
-                    className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent resize-none"
+                    className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent resize-none"
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2"
+                  className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2"
                 >
                   <FiSend className="w-5 h-5" />
                   Send Message

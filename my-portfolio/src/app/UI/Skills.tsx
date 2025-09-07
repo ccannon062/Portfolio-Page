@@ -10,9 +10,9 @@ import "../globals.css";
 export default function Skills() {
   return (
     <>
-      <div className="w-full p-30 bg-gradient-to-r from-[#9ca3f0] via-[#6b93f7] to-[#6366f1]">
+      <div className="w-full p-30 bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5]">
         <div className="mx-auto px-4">
-          <h1 className="text-4xl font-bold text-white tracking-tight py-6 text-center">
+          <h1 className="text-5xl font-bold text-white tracking-tight py-6 text-center">
             Skills & Expertise
           </h1>
           <div className="w-32 h-1 mx-auto rounded bg-indigo-900"></div>
@@ -29,9 +29,9 @@ export default function Skills() {
               <div className="bg-indigo-900/30 p-3 rounded-lg">
                 <FiDatabase className="text-white w-6 h-6" />
               </div>
-              <h2 className="text-xl font-semibold">Backend Engineering</h2>
+              <h2 className="text-xl font-medium">Backend Engineering</h2>
             </div>
-            <ul className="list-disc list-inside space-y-2 text-gray-100">
+            <ul className="list-disc list-inside space-y-2 text-gray-100/90">
               <li className="hover:text-white">Java Spring Boot</li>
               <li className="hover:text-white">Microservices</li>
               <li className="hover:text-white">PostgreSQL</li>
@@ -47,9 +47,9 @@ export default function Skills() {
               <div className="bg-indigo-900/30 p-3 rounded-lg">
                 <HiOutlineLightningBolt className="w-6 h-6 text-white" />
               </div>
-              <h2 className="text-xl font-semibold">Enterprise Technologies</h2>
+              <h2 className="text-xl font-medium">Enterprise Technologies</h2>
             </div>
-            <ul className="list-disc list-inside space-y-2 text-gray-100">
+            <ul className="list-disc list-inside space-y-2 text-gray-100/90">
               <li className="hover:text-white">Spring Framework</li>
               <li className="hover:text-white">JPA/Hibernate</li>
               <li className="hover:text-white">Maven/Gradle</li>
@@ -65,9 +65,9 @@ export default function Skills() {
               <div className="bg-indigo-900/30 p-3 rounded-lg">
                 <FiGlobe className="text-white w-6 h-6" />
               </div>
-              <h2 className="text-xl font-semibold">Cloud & DevOps</h2>
+              <h2 className="text-xl font-medium">Cloud & DevOps</h2>
             </div>
-            <ul className="list-disc list-inside space-y-2 text-gray-100">
+            <ul className="list-disc list-inside space-y-2 text-gray-100/90">
               <li className="hover:text-white">AWS</li>
               <li className="hover:text-white">CI/CD</li>
               <li className="hover:text-white">Git</li>
@@ -83,9 +83,9 @@ export default function Skills() {
               <div className="bg-indigo-900/30 p-3 rounded-lg">
                 <TbBracketsAngle className="text-white w-6 h-6" />
               </div>
-              <h2 className="text-xl font-semibold">Frontend</h2>
+              <h2 className="text-xl font-medium">Frontend</h2>
             </div>
-            <ul className="list-disc list-inside space-y-2 text-gray-100">
+            <ul className="list-disc list-inside space-y-2 text-gray-100/90">
               <li className="hover:text-white">React</li>
               <li className="hover:text-white">TypeScript</li>
               <li className="hover:text-white">TailwindCSS</li>
@@ -101,9 +101,9 @@ export default function Skills() {
               <div className="bg-indigo-900/30 p-3 rounded-lg">
                 <IoPhonePortraitOutline className="text-white w-6 h-6" />
               </div>
-              <h2 className="text-xl font-semibold">Web & App Development</h2>
+              <h2 className="text-xl font-medium">Web & App Development</h2>
             </div>
-            <ul className="list-disc list-inside space-y-2 text-gray-100">
+            <ul className="list-disc list-inside space-y-2 text-gray-100/90">
               <li className="hover:text-white">HTML5</li>
               <li className="hover:text-white">CSS3</li>
               <li className="hover:text-white">JavaScript</li>
@@ -119,9 +119,9 @@ export default function Skills() {
               <div className="bg-indigo-900/30 p-3 rounded-lg">
                 <MdOutlinePalette className="text-white w-6 h-6" />
               </div>
-              <h2 className="text-xl font-semibold">Architecture & Design</h2>
+              <h2 className="text-xl font-medium">Architecture & Design</h2>
             </div>
-            <ul className="list-disc list-inside space-y-2 text-gray-100">
+            <ul className="list-disc list-inside space-y-2 text-gray-100/90">
               <li className="hover:text-white">Figma</li>
               <li className="hover:text-white">Adobe Creative Suite</li>
               <li className="hover:text-white">OpenAPI</li>
