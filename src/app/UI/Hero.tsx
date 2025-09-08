@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="h-[80px] w-[80px] bg-gray-200 opacity-40 absolute md:right-20 md:bottom-100 right-5 bottom-100 animate-linear-bounce"></div>
       <div data-aos="zoom-in" className="mx-auto text-center max-w-2xl px-6">
         <h1 className="text-5xl font-bold text-white tracking-tight py-6">
-          Hello, I'm Caleb
+          Hello, I&apos;m Caleb
         </h1>
         <p className="text-gray-100/90 text-lg leading-relaxed mb-8">
           A full stack enthusiast with a passion for building elegant,
