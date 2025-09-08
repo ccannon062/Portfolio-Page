@@ -8,11 +8,11 @@ export default function SubmitForms() {
       <div className="w-full py-16 bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5]">
         <div className="max-w-2xl mx-auto px-4">
           <h1 className="text-5xl font-bold text-white tracking-tight py-6 text-center">
-            Let's Work Together
+            Let&apos;s Work Together
           </h1>
           <div className="w-32 h-1 mx-auto rounded bg-indigo-900 mb-6"></div>
           <p className="text-gray-100/90 text-lg leading-relaxed text-center">
-            Have a project in mind? I'd love to hear about it and discuss how we
+            Have a project in mind? I&apos;d love to hear about it and discuss how we
             can bring your ideas to life.
           </p>
         </div>
@@ -21,7 +21,7 @@ export default function SubmitForms() {
             <div className="text-white">
               <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
               <p className="text-gray-100/90 text-lg leading-relaxed mb-8">
-                I'm always open to discussing new opportunities, creative
+                I&apos;m always open to discussing new opportunities, creative
                 projects, or just having a chat about technology and design.
                 Feel free to reach out!
               </p>
