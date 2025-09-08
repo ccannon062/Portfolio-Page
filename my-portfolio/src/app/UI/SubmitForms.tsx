@@ -49,7 +49,11 @@ export default function SubmitForms() {
               </div>
             </div>
             <div className="bg-indigo-900/30 backdrop-blur-sm rounded-xl p-8 border border-indigo-700/50">
-              <form className="space-y-6">
+              <form
+                action="https://formspree.io/f/xzzayjql"
+                method="POST"
+                className="space-y-6"
+              >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label
@@ -59,6 +63,7 @@ export default function SubmitForms() {
                       Name
                     </label>
                     <input
+                      name="name"
                       type="text"
                       id="name"
                       placeholder="Your name"
@@ -74,6 +79,7 @@ export default function SubmitForms() {
                       Email
                     </label>
                     <input
+                      name="email"
                       type="email"
                       id="email"
                       placeholder="your@email.com"
@@ -90,6 +96,7 @@ export default function SubmitForms() {
                     Subject
                   </label>
                   <input
+                    name="subject"
                     type="text"
                     id="subject"
                     placeholder="Project inquiry"
@@ -105,6 +112,7 @@ export default function SubmitForms() {
                     Message
                   </label>
                   <textarea
+                    name="message"
                     id="message"
                     rows={5}
                     placeholder="Tell me about your project..."
