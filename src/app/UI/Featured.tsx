@@ -254,7 +254,7 @@ export default function Featured() {
                 </h3>
 
                 <p className="text-gray-100/90 mb-4 text-sm leading-relaxed">
-                  Computer science research funded by the DoD's DEPSCoR
+                  Computer science research funded by the DoD&apos;s DEPSCoR
                   intiative. Utilizing ML, social science, and data to predict
                   mob outcomes.
                 </p>
