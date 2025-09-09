@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import "../globals.css";
 
 export default function About() {
@@ -17,7 +18,18 @@ export default function About() {
         </div>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 mt-20 px-10 gap-4 max-w-6xl mx-auto">
           <div className="relative justify-self-center mb-4">
-            <div className="w-80 h-96 bg-[url(/Intern-Headshots-40.jpg)] bg-cover rounded-xl relative z-1"></div>
+            <div className="w-80 h-96 relative rounded-xl overflow-hidden">
+              <Image
+                src="/Intern-Headshots-40.jpg"
+                alt="Caleb Cannon headshot"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 320px"
+                priority
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+              />
+            </div>
             <div className="w-10 h-10 bg-white opacity-20 rounded-full absolute -top-4 -right-4 z-3"></div>
             <div className="w-9 h-9 bg-white opacity-20 rounded-full absolute -left-4 -bottom-4 -z-0"></div>
           </div>

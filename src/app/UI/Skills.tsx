@@ -10,7 +10,7 @@ import "../globals.css";
 export default function Skills() {
   return (
     <>
-      <div className="w-full p-30 bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5]">
+      <div className="w-full m:p-30 bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5]">
         <div className="mx-auto px-4">
           <h1 className="text-5xl font-bold text-white tracking-tight py-6 text-center">
             Skills & Expertise
