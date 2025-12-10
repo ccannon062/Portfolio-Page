@@ -5,12 +5,12 @@ import "../globals.css";
 export default function About() {
   return (
     <>
-      <div className="w-full bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5] pb-30 px-4">
+      <div className="w-full bg-gradient-to-r from-[#293040] via-[#3B475C] to-[#293040] pb-30 px-4">
         <div className="max-w-2xl mx-auto">
           <h1 className="text-5xl font-bold text-white tracking-tight py-6 text-center">
             About Me
           </h1>
-          <div className="w-32 h-1 mx-auto rounded bg-indigo-900"></div>
+          <div className="w-32 h-1 mx-auto rounded bg-[#D3AC2B]"></div>
           <p className="pt-6 text-gray-100/90 text-lg leading-relaxed text-center">
             Full stack engineering enthusiast with industry experience and a
             passion for building unique and challenging systems.
@@ -49,12 +49,12 @@ export default function About() {
               perspective on the full development lifecycle.
             </p>
             <div className="grid grid-cols-2 pt-6 gap-5">
-              <div className="text-center bg-indigo-900 text-white py-6 rounded-xl font-medium">
+              <div className="text-center bg-[#D3AC2B] text-[#293040] py-6 rounded-xl font-semibold">
                 50+
                 <br />
                 Projects Completed
               </div>
-              <div className="text-center bg-indigo-900 text-white py-6 rounded-xl font-medium">
+              <div className="text-center bg-[#D3AC2B] text-[#293040] py-6 rounded-xl font-semibold">
                 4
                 <br />
                 Years Experience

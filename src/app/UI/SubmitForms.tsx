@@ -5,12 +5,12 @@ import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 export default function SubmitForms() {
   return (
     <>
-      <div className="w-full py-16 bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5]">
+      <div className="w-full py-16 bg-gradient-to-r from-[#293040] via-[#3B475C] to-[#293040]">
         <div className="max-w-2xl mx-auto px-4">
           <h1 className="text-5xl font-bold text-white tracking-tight py-6 text-center">
             Let&apos;s Work Together
           </h1>
-          <div className="w-32 h-1 mx-auto rounded bg-indigo-900 mb-6"></div>
+          <div className="w-32 h-1 mx-auto rounded bg-[#D3AC2B] mb-6"></div>
           <p className="text-gray-100/90 text-lg leading-relaxed text-center">
             Have a project in mind? I&apos;d love to hear about it and discuss how we
             can bring your ideas to life.
@@ -27,8 +27,8 @@ export default function SubmitForms() {
               </p>
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center">
-                    <FiMail className="w-6 h-6 text-white" />
+                  <div className="w-12 h-12 bg-[#D3AC2B] rounded-lg flex items-center justify-center">
+                    <FiMail className="w-6 h-6 text-[#293040]" />
                   </div>
                   <div>
                     <h4 className="font-medium text-lg">Email</h4>
@@ -38,8 +38,8 @@ export default function SubmitForms() {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center">
-                    <FiMapPin className="w-6 h-6 text-white" />
+                  <div className="w-12 h-12 bg-[#D3AC2B] rounded-lg flex items-center justify-center">
+                    <FiMapPin className="w-6 h-6 text-[#293040]" />
                   </div>
                   <div>
                     <h4 className="font-medium text-lg">Location</h4>
@@ -48,7 +48,7 @@ export default function SubmitForms() {
                 </div>
               </div>
             </div>
-            <div className="bg-indigo-900/30 backdrop-blur-sm rounded-xl p-8 border border-indigo-700/50">
+            <div className="bg-[#3B475C]/30 backdrop-blur-sm rounded-xl p-8 border border-[#D3AC2B]/30">
               <form
                 action="https://formspree.io/f/xzzayjql"
                 method="POST"
@@ -67,7 +67,7 @@ export default function SubmitForms() {
                       type="text"
                       id="name"
                       placeholder="Your name"
-                      className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
+                      className="w-full px-4 py-3 bg-[#293040]/50 border border-[#D3AC2B]/30 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-[#D3AC2B] focus:border-transparent"
                     />
                   </div>
 
@@ -83,7 +83,7 @@ export default function SubmitForms() {
                       type="email"
                       id="email"
                       placeholder="your@email.com"
-                      className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
+                      className="w-full px-4 py-3 bg-[#293040]/50 border border-[#D3AC2B]/30 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-[#D3AC2B] focus:border-transparent"
                     />
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export default function SubmitForms() {
                     type="text"
                     id="subject"
                     placeholder="Project inquiry"
-                    className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent"
+                    className="w-full px-4 py-3 bg-[#293040]/50 border border-[#D3AC2B]/30 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-[#D3AC2B] focus:border-transparent"
                   />
                 </div>
 
@@ -116,13 +116,13 @@ export default function SubmitForms() {
                     id="message"
                     rows={5}
                     placeholder="Tell me about your project..."
-                    className="w-full px-4 py-3 bg-indigo-800/50 border border-indigo-600 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent resize-none"
+                    className="w-full px-4 py-3 bg-[#293040]/50 border border-[#D3AC2B]/30 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-[#D3AC2B] focus:border-transparent resize-none"
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2"
+                  className="w-full bg-[#D3AC2B] hover:bg-[#c09a23] text-[#293040] font-semibold py-3 px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2"
                 >
                   <FiSend className="w-5 h-5" />
                   Send Message

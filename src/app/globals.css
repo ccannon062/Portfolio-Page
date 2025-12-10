@@ -32,6 +32,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Custom Navy & Gold Professional Theme */
+  --navy-dark: #293040;
+  --navy-medium: #3B475C;
+  --gold-accent: #D3AC2B;
+  --white: #ffffff;
 }
 
 body {

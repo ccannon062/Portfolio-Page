@@ -15,7 +15,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen flex items-center bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5] static">
+    <div className="w-full min-h-screen flex items-center bg-gradient-to-r from-[#293040] via-[#3B475C] to-[#293040] static">
       <div className="h-[100px] w-[100px] rounded-full bg-gray-200 opacity-40 absolute md:top-30 md:left-25 top-30 left-5 animate-linear-bounce"></div>
       <div className="h-[60px] w-[60px] rounded-full bg-gray-200 opacity-40 absolute md:top-155 md:left-45 top-155 left-15 animate-linear-bounce"></div>
       <div className="h-[80px] w-[80px] bg-gray-200 opacity-40 absolute md:right-20 md:bottom-100 right-5 bottom-100 animate-linear-bounce"></div>
@@ -31,14 +31,14 @@ export default function Hero() {
           <a
             href="https://github.com/ccannon062"
             target="_blank"
-            className="bg-white text-indigo-900 font-medium px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition ease-in-out duration-300 hover:scale-105 cursor-pointer"
+            className="bg-white text-[#293040] font-medium px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition ease-in-out duration-300 hover:scale-105 cursor-pointer"
           >
             View My Work
           </a>
           <a
             href="/CalebCResume.pdf"
             download="CalebCResume.pdf"
-            className="bg-indigo-900 text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition ease-in-out duration-300 hover:scale-105"
+            className="bg-[#D3AC2B] text-[#293040] font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#c09a23] transition ease-in-out duration-300 hover:scale-105"
           >
             Download CV
           </a>
@@ -49,20 +49,20 @@ export default function Hero() {
             target="_blank"
             className="cursor-pointer"
           >
-            <FiGithub className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
+            <FiGithub className="text-[#293040] bg-[#D3AC2B] p-3 rounded-2xl w-12 h-12 hover:bg-[#c09a23] transition ease-in-out duration-300 hover:scale-105" />
           </a>
           <a
             href="https://www.linkedin.com/in/cannoncc/"
             target="_blank"
             className="cursor-pointer"
           >
-            <FiLinkedin className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
+            <FiLinkedin className="text-[#293040] bg-[#D3AC2B] p-3 rounded-2xl w-12 h-12 hover:bg-[#c09a23] transition ease-in-out duration-300 hover:scale-105" />
           </a>
           <a
             href="mailto:caleb.cristoph.cannon@gmail.com"
             className="cursor-pointer"
           >
-            <MdOutlineEmail className="text-white bg-indigo-900 p-3 rounded-2xl w-12 h-12 hover:bg-gray-800 transition ease-in-out duration-300 hover:scale-105" />
+            <MdOutlineEmail className="text-[#293040] bg-[#D3AC2B] p-3 rounded-2xl w-12 h-12 hover:bg-[#c09a23] transition ease-in-out duration-300 hover:scale-105" />
           </a>
         </div>
       </div>

@@ -10,12 +10,12 @@ import "../globals.css";
 export default function Skills() {
   return (
     <>
-      <div className="w-full m:p-30 bg-gradient-to-r from-[#818cf8] via-[#3b82f6] to-[#4f46e5]">
+      <div className="w-full m:p-30 bg-gradient-to-r from-[#293040] via-[#3B475C] to-[#293040]">
         <div className="mx-auto px-4">
           <h1 className="text-5xl font-bold text-white tracking-tight py-6 text-center">
             Skills & Expertise
           </h1>
-          <div className="w-32 h-1 mx-auto rounded bg-indigo-900"></div>
+          <div className="w-32 h-1 mx-auto rounded bg-[#D3AC2B]"></div>
           <p className="pt-6 text-gray-100/90 text-lg leading-relaxed text-center">
             Specialized in backend development with full-stack capabilities
           </p>
@@ -23,10 +23,10 @@ export default function Skills() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-10 gap-6 max-w-7xl mx-auto px-4">
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="relative w-full max-w-80 h-auto bg-indigo-900/45 rounded-md border border-gray-100 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(147,_51,_234,_0.2)]"
+            className="relative w-full max-w-80 h-auto bg-[#3B475C]/45 rounded-md border border-[#D3AC2B]/30 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(211,_172,_43,_0.3)]"
           >
             <div className="flex gap-4 items-center mb-4">
-              <div className="bg-indigo-900/30 p-3 rounded-lg">
+              <div className="bg-[#D3AC2B]/30 p-3 rounded-lg">
                 <FiDatabase className="text-white w-6 h-6" />
               </div>
               <h2 className="text-xl font-medium">Backend Engineering</h2>
@@ -41,10 +41,10 @@ export default function Skills() {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="relative w-full max-w-80 h-auto bg-indigo-900/45 rounded-md border border-gray-100 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(147,_51,_234,_0.2)]"
+            className="relative w-full max-w-80 h-auto bg-[#3B475C]/45 rounded-md border border-[#D3AC2B]/30 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(211,_172,_43,_0.3)]"
           >
             <div className="flex gap-4 items-center mb-4">
-              <div className="bg-indigo-900/30 p-3 rounded-lg">
+              <div className="bg-[#D3AC2B]/30 p-3 rounded-lg">
                 <HiOutlineLightningBolt className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-xl font-medium">Enterprise Technologies</h2>
@@ -59,10 +59,10 @@ export default function Skills() {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="relative w-full max-w-80 h-auto bg-indigo-900/45 rounded-md border border-gray-100 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(147,_51,_234,_0.2)]"
+            className="relative w-full max-w-80 h-auto bg-[#3B475C]/45 rounded-md border border-[#D3AC2B]/30 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(211,_172,_43,_0.3)]"
           >
             <div className="flex gap-4 items-center mb-4">
-              <div className="bg-indigo-900/30 p-3 rounded-lg">
+              <div className="bg-[#D3AC2B]/30 p-3 rounded-lg">
                 <FiGlobe className="text-white w-6 h-6" />
               </div>
               <h2 className="text-xl font-medium">Cloud & DevOps</h2>
@@ -77,10 +77,10 @@ export default function Skills() {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="relative w-full max-w-80 h-auto bg-indigo-900/45 rounded-md border border-gray-100 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(147,_51,_234,_0.2)]"
+            className="relative w-full max-w-80 h-auto bg-[#3B475C]/45 rounded-md border border-[#D3AC2B]/30 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(211,_172,_43,_0.3)]"
           >
             <div className="flex gap-4 items-center mb-4">
-              <div className="bg-indigo-900/30 p-3 rounded-lg">
+              <div className="bg-[#D3AC2B]/30 p-3 rounded-lg">
                 <TbBracketsAngle className="text-white w-6 h-6" />
               </div>
               <h2 className="text-xl font-medium">Frontend</h2>
@@ -95,10 +95,10 @@ export default function Skills() {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="relative w-full max-w-80 h-auto bg-indigo-900/45 rounded-md border border-gray-100 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(147,_51,_234,_0.2)]"
+            className="relative w-full max-w-80 h-auto bg-[#3B475C]/45 rounded-md border border-[#D3AC2B]/30 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(211,_172,_43,_0.3)]"
           >
             <div className="flex gap-4 items-center mb-4">
-              <div className="bg-indigo-900/30 p-3 rounded-lg">
+              <div className="bg-[#D3AC2B]/30 p-3 rounded-lg">
                 <IoPhonePortraitOutline className="text-white w-6 h-6" />
               </div>
               <h2 className="text-xl font-medium">Web & App Development</h2>
@@ -113,10 +113,10 @@ export default function Skills() {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="relative w-full max-w-80 h-auto bg-indigo-900/45 rounded-md border border-gray-100 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(147,_51,_234,_0.2)]"
+            className="relative w-full max-w-80 h-auto bg-[#3B475C]/45 rounded-md border border-[#D3AC2B]/30 justify-self-center text-white p-6 hover:shadow-[0px_0px_6px_3px_rgba(211,_172,_43,_0.3)]"
           >
             <div className="flex gap-4 items-center mb-4">
-              <div className="bg-indigo-900/30 p-3 rounded-lg">
+              <div className="bg-[#D3AC2B]/30 p-3 rounded-lg">
                 <MdOutlinePalette className="text-white w-6 h-6" />
               </div>
               <h2 className="text-xl font-medium">Architecture & Design</h2>
