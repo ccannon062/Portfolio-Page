@@ -1,104 +1,73 @@
-"use client";
-import { motion } from "motion/react";
-import { FiExternalLink, FiCode } from "react-icons/fi";
-import { HiOutlineBeaker } from "react-icons/hi";
-import "../globals.css";
+import { FiExternalLink } from "react-icons/fi";
+
+const experience = [
+  {
+    title: "Software Developer",
+    meta: "Java Spring Boot · RESTful APIs",
+    description:
+      "Built and maintained backend systems, primarily using Java Spring Boot to design and extend RESTful API features for production applications.",
+    tags: ["Java", "Spring Boot", "REST APIs", "PostgreSQL"],
+  },
+  {
+    title: "MOBS Research",
+    meta: "DoD DEPSCoR Initiative",
+    description:
+      "Computer science research funded by the DoD's DEPSCoR initiative, applying machine learning and social science methods to model and predict mob outcomes.",
+    tags: ["Python", "Machine Learning", "Data Analysis"],
+    link: "https://sameral-khateeb.github.io/MobsModeling/index.html",
+  },
+];
 
 export default function Featured() {
   return (
-    <>
-      <div className="w-full py-20 md:py-28 bg-[#232a3a] px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-white tracking-tight mb-4">
-              Prior Experience
-            </h2>
-            <div className="w-32 h-1 mx-auto rounded bg-[#D3AC2B] mb-6"></div>
-            <p className="text-gray-100/90 text-lg max-w-2xl mx-auto">
-              A technical and research background that now informs how I
-              think about innovation, systems, and the law
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              className="group relative w-full h-auto bg-[#3B475C]/40 rounded-lg border border-[#D3AC2B]/30 text-white overflow-hidden hover:bg-[#3B475C]/70 transition-all duration-300 p-6"
+    <section
+      id="experience"
+      className="w-full bg-[#12161f] py-20 md:py-24 px-6 border-y border-white/10"
+    >
+      <div className="max-w-3xl mx-auto">
+        <p className="text-[#a3812f] text-sm font-medium tracking-[0.2em] uppercase mb-3">
+          Experience
+        </p>
+        <h2 className="font-serif text-3xl md:text-4xl font-bold text-white mb-10">
+          Prior Experience
+        </h2>
+        <div className="space-y-10">
+          {experience.map((item) => (
+            <div
+              key={item.title}
+              className="border-l-2 border-[#a3812f]/40 pl-6"
             >
-              <div className="flex gap-4 items-center mb-4">
-                <div className="bg-[#D3AC2B]/30 p-3 rounded-lg">
-                  <FiCode className="text-white w-6 h-6" />
-                </div>
-                <h3 className="text-xl font-bold group-hover:text-[#D3AC2B] transition-colors duration-300">
-                  Software Developer
-                </h3>
-              </div>
-
-              <p className="text-gray-100/90 mb-4 text-sm leading-relaxed">
-                Built and maintained backend systems, primarily using Java
-                Spring Boot to design and extend RESTful API features for
-                production applications.
+              <h3 className="font-serif text-xl font-semibold text-white mb-1">
+                {item.title}
+              </h3>
+              <p className="text-[#e8e6df]/50 text-sm mb-3">{item.meta}</p>
+              <p className="text-[#e8e6df]/80 leading-relaxed mb-4">
+                {item.description}
               </p>
-
-              <div className="flex flex-wrap gap-2">
-                <span className="px-2 py-1 bg-[#232a3a] rounded text-xs">
-                  Java
-                </span>
-                <span className="px-2 py-1 bg-[#232a3a] rounded text-xs">
-                  Spring Boot
-                </span>
-                <span className="px-2 py-1 bg-[#232a3a] rounded text-xs">
-                  REST APIs
-                </span>
-                <span className="px-2 py-1 bg-[#232a3a] rounded text-xs">
-                  PostgreSQL
-                </span>
+              <div className="flex flex-wrap items-center gap-2">
+                {item.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="text-xs text-[#e8e6df]/70 border border-white/10 px-2.5 py-1 rounded"
+                  >
+                    {tag}
+                  </span>
+                ))}
+                {item.link && (
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    className="ml-2 inline-flex items-center gap-1 text-sm text-[#a3812f] hover:text-[#c9a227] transition-colors duration-200"
+                  >
+                    <FiExternalLink className="w-3.5 h-3.5" />
+                    Visit Website
+                  </a>
+                )}
               </div>
-            </motion.div>
-
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              className="group relative w-full h-auto bg-[#3B475C]/40 rounded-lg border border-[#D3AC2B]/30 text-white overflow-hidden hover:bg-[#3B475C]/70 transition-all duration-300 p-6"
-            >
-              <div className="flex gap-4 items-center mb-4">
-                <div className="bg-[#D3AC2B]/30 p-3 rounded-lg">
-                  <HiOutlineBeaker className="text-white w-6 h-6" />
-                </div>
-                <h3 className="text-xl font-bold group-hover:text-[#D3AC2B] transition-colors duration-300">
-                  MOBS Research
-                </h3>
-              </div>
-
-              <p className="text-gray-100/90 mb-4 text-sm leading-relaxed">
-                Computer science research funded by the DoD&apos;s DEPSCoR
-                initiative, applying machine learning and social science
-                methods to model and predict mob outcomes.
-              </p>
-
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-2 py-1 bg-[#232a3a] rounded text-xs">
-                  Python
-                </span>
-                <span className="px-2 py-1 bg-[#232a3a] rounded text-xs">
-                  Machine Learning
-                </span>
-                <span className="px-2 py-1 bg-[#232a3a] rounded text-xs">
-                  Data Analysis
-                </span>
-              </div>
-
-              <a
-                href="https://sameral-khateeb.github.io/MobsModeling/index.html"
-                target="_blank"
-                className="w-full flex items-center justify-center gap-2 px-3 py-2 bg-[#D3AC2B] text-[#232a3a] hover:bg-[#c09a23] rounded text-sm font-semibold transition-colors cursor-pointer"
-              >
-                <FiExternalLink className="w-4 h-4" />
-                Visit Website
-              </a>
-            </motion.div>
-          </div>
+            </div>
+          ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }
