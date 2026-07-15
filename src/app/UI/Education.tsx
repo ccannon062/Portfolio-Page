@@ -5,7 +5,7 @@ const education = [
     degree: "Juris Doctor (J.D.) Candidate",
     meta: "University of Nebraska College of Law · 1L",
     description:
-      "Focused on intellectual property law — patents, trademarks, and technology transactions — with an emphasis on helping innovators protect their work.",
+      "Focusing on intellectual property law — patents, trademarks, and technology transactions — with an emphasis on helping innovators protect their work.",
   },
   {
     degree: "B.S. in Computer Science",
