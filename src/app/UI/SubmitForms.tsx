@@ -1,34 +1,35 @@
 "use client";
 import "../globals.css";
-import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
+import { FiMail, FiMapPin, FiSend } from "react-icons/fi";
 
 export default function SubmitForms() {
   return (
     <>
-      <div className="w-full py-16 bg-gradient-to-r from-[#293040] via-[#3B475C] to-[#293040]">
+      <div id="contact" className="w-full py-20 md:py-28 bg-[#1e2432]">
         <div className="max-w-2xl mx-auto px-4">
-          <h1 className="text-5xl font-bold text-white tracking-tight py-6 text-center">
-            Let&apos;s Work Together
+          <h1 className="font-serif text-4xl md:text-5xl font-bold text-white tracking-tight py-6 text-center">
+            Let&apos;s Connect
           </h1>
           <div className="w-32 h-1 mx-auto rounded bg-[#D3AC2B] mb-6"></div>
           <p className="text-gray-100/90 text-lg leading-relaxed text-center">
-            Have a project in mind? I&apos;d love to hear about it and discuss how we
-            can bring your ideas to life.
+            I&apos;m always glad to connect with attorneys, alumni, and fellow
+            students — whether it&apos;s about intellectual property law, 1L
+            life, or just to chat. Feel free to reach out.
           </p>
         </div>
         <div className="max-w-6xl mx-auto mt-16 px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="text-white">
-              <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
+              <h3 className="font-serif text-2xl font-bold mb-6">Get In Touch</h3>
               <p className="text-gray-100/90 text-lg leading-relaxed mb-8">
-                I&apos;m always open to discussing new opportunities, creative
-                projects, or just having a chat about technology and design.
-                Feel free to reach out!
+                Open to networking conversations, informational interviews,
+                and opportunities related to IP law. Feel free to reach out by
+                email or connect with me on LinkedIn.
               </p>
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-[#D3AC2B] rounded-lg flex items-center justify-center">
-                    <FiMail className="w-6 h-6 text-[#293040]" />
+                    <FiMail className="w-6 h-6 text-[#232a3a]" />
                   </div>
                   <div>
                     <h4 className="font-medium text-lg">Email</h4>
@@ -39,11 +40,11 @@ export default function SubmitForms() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-[#D3AC2B] rounded-lg flex items-center justify-center">
-                    <FiMapPin className="w-6 h-6 text-[#293040]" />
+                    <FiMapPin className="w-6 h-6 text-[#232a3a]" />
                   </div>
                   <div>
                     <h4 className="font-medium text-lg">Location</h4>
-                    <p className="text-gray-100/90">Omaha, NE</p>
+                    <p className="text-gray-100/90">Lincoln, NE</p>
                   </div>
                 </div>
               </div>
@@ -99,7 +100,7 @@ export default function SubmitForms() {
                     name="subject"
                     type="text"
                     id="subject"
-                    placeholder="Project inquiry"
+                    placeholder="Let's connect"
                     className="w-full px-4 py-3 bg-[#293040]/50 border border-[#D3AC2B]/30 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-[#D3AC2B] focus:border-transparent"
                   />
                 </div>
@@ -115,7 +116,7 @@ export default function SubmitForms() {
                     name="message"
                     id="message"
                     rows={5}
-                    placeholder="Tell me about your project..."
+                    placeholder="What's on your mind?"
                     className="w-full px-4 py-3 bg-[#293040]/50 border border-[#D3AC2B]/30 rounded-lg text-white placeholder-gray-100/90 focus:outline-none focus:ring-2 focus:ring-[#D3AC2B] focus:border-transparent resize-none"
                   ></textarea>
                 </div>

@@ -1,15 +1,17 @@
 "use client";
-import { FiGithub, FiLinkedin, FiMail, FiHeart } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 
 export default function Footer() {
   return (
-    <footer className="py-12 px-6 bg-gradient-to-r from-[#293040] via-[#3B475C] to-[#293040]">
+    <footer className="py-12 px-6 bg-[#1e2432]">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-bold text-white mb-2">Caleb Cannon</h3>
+            <h3 className="font-serif text-2xl font-bold text-white mb-2">
+              Caleb Cannon
+            </h3>
             <p className="text-gray-100/90">
-              Crafting digital experiences with passion
+              1L at the University of Nebraska College of Law
             </p>
           </div>
 
@@ -39,7 +41,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-[#D3AC2B]/30 text-center">
           <p className="text-gray-100/90 flex items-center justify-center space-x-2">
-            <span>© 2025 Caleb Cannon</span>
+            <span>© 2026 Caleb Cannon</span>
           </p>
         </div>
       </div>
