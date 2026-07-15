@@ -78,13 +78,13 @@ export default function Hero() {
           data-aos-delay="150"
           className="justify-self-center md:justify-self-end"
         >
-          <div className="w-48 h-56 md:w-56 md:h-64 relative rounded-md overflow-hidden ring-1 ring-[#a3812f]/30 shadow-2xl">
+          <div className="w-56 h-64 md:w-72 md:h-80 relative rounded-md overflow-hidden ring-1 ring-[#a3812f]/30 shadow-2xl">
             <Image
               src="/Intern-Headshots-40.jpg"
               alt="Caleb Cannon headshot"
               fill
               className="object-cover"
-              sizes="224px"
+              sizes="288px"
               priority
               placeholder="blur"
               blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
