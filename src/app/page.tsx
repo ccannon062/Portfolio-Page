@@ -1,17 +1,21 @@
+import Nav from "./UI/Nav";
 import Hero from "./UI/Hero";
 import About from "./UI/About";
-import Skills from "./UI/Skills";
+import Education from "./UI/Education";
 import Featured from "./UI/Featured";
+import Skills from "./UI/Skills";
 import SubmitForms from "./UI/SubmitForms";
 import Footer from "./UI/Footer";
 
 export default function Home() {
   return (
     <>
+      <Nav />
       <Hero />
       <About />
-      <Skills />
+      <Education />
       <Featured />
+      <Skills />
       <SubmitForms />
       <Footer />
     </>
